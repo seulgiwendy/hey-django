@@ -26,6 +26,9 @@ class GuessNumbers(models.Model):
         self.update_date = timezone.now()
         self.save()
 
+    def __str__(self):
+        return "your name : %s, your values : %s" % (self.name, self.lottos)
+
 
 
 
