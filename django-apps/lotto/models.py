@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from random import random
+import random
 
 from django.db import models
 
