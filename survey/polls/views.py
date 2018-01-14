@@ -32,5 +32,3 @@ def vote(request, question_id):
         selected_choice.save()
         return redirect('polls:result' , question_id = question.id)
 
-    return HttpResponse("Vote Page : %s" % question_id)
-
